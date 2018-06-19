@@ -1,0 +1,11 @@
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\bin\Debug\netcoreapp2.0\CsharpBasics.deps.json
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\bin\Debug\netcoreapp2.0\CsharpBasics.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\obj\Debug\netcoreapp2.0\CsharpBasics.csproj.CoreCompileInputs.cache
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\obj\Debug\netcoreapp2.0\CsharpBasics.AssemblyInfoInputs.cache
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\obj\Debug\netcoreapp2.0\CsharpBasics.AssemblyInfo.cs
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\bin\Debug\netcoreapp2.0\CsharpBasics.runtimeconfig.json
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\bin\Debug\netcoreapp2.0\CsharpBasics.runtimeconfig.dev.json
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\bin\Debug\netcoreapp2.0\CsharpBasics.pdb
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\obj\Debug\netcoreapp2.0\CsharpBasics.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\obj\Debug\netcoreapp2.0\CsharpBasics.pdb
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CsharpBasics\obj\Debug\netcoreapp2.0\CsharpBasics.csprojResolveAssemblyReference.cache

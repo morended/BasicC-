@@ -1,0 +1,17 @@
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\CSharpBasicsTests.deps.json
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\CSharpBasicsTests.runtimeconfig.json
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\CSharpBasicsTests.runtimeconfig.dev.json
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\CSharpBasicsTests.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\CsharpBasics.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\CsharpBasics.pdb
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\obj\Debug\netcoreapp2.0\CSharpBasicsTests.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\obj\Debug\netcoreapp2.0\CSharpBasicsTests.csproj.CoreCompileInputs.cache
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\obj\Debug\netcoreapp2.0\CSharpBasicsTests.AssemblyInfoInputs.cache
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\obj\Debug\netcoreapp2.0\CSharpBasicsTests.AssemblyInfo.cs
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\obj\Debug\netcoreapp2.0\CSharpBasicsTests.csproj.CopyComplete
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\bin\Debug\netcoreapp2.0\CSharpBasicsTests.pdb
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\obj\Debug\netcoreapp2.0\CSharpBasicsTests.dll
+\\mac\home\documents\visual studio 2017\Projects\CsharpBasics\CSharpBasicsTests\obj\Debug\netcoreapp2.0\CSharpBasicsTests.pdb
