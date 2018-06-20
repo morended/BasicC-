@@ -66,7 +66,7 @@ namespace CsharpBasics.DesignPatterns
    }
 
     //Early Initialization - Thread Safe 
-    //This way the static field may be initialized before the instance creation
+    //This way the static field may be initialized before the instance creation.
     public sealed class ThreadSafeEarlySingleTon
     {
         private static readonly ThreadSafeEarlySingleTon instance = new ThreadSafeEarlySingleTon();
