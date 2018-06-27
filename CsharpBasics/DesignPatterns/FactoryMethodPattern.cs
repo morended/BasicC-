@@ -66,11 +66,14 @@ namespace CsharpBasics.DesignPatterns
         {
             return Name + phone + Address;
         }
+
+        public abstract int membershipPrice();
+
     }
 
     public class BasicMember : Member
     {
-        public int membershipPrice()
+        public override int membershipPrice()
         {
             return 10;
         }
@@ -78,43 +81,30 @@ namespace CsharpBasics.DesignPatterns
 
     public class ClubMember : Member
     {
-        public int membershipPrice()
+        public override int membershipPrice()
         {
             return 100;
         }
 
-        public int discount()
-        {
-            return 10;
-        }
     }
 
     #region Membership from Chicago City
 
     public class ChicagoBasicMember : Member
     {
-        public int membershipPrice()
+        public override int membershipPrice()
         {
             return 20;
-        }
-
-        public string JoiningOffer()
-        {
-            return "swimming & Zumba included in basic membership";
         }
     }
 
     public class ChicagoClubMember : Member
     {
-        public int membershipPrice()
+        public override int membershipPrice()
         {
             return 200;
         }
 
-        public int discount()
-        {
-            return 20;
-        }
     }
 
     #endregion
@@ -123,7 +113,7 @@ namespace CsharpBasics.DesignPatterns
 
     public class SFOBasicMember : Member
     {
-        public int membershipPrice()
+        public override int membershipPrice()
         {
             return 100;
         }
@@ -132,15 +122,11 @@ namespace CsharpBasics.DesignPatterns
 
     public class SFOClubMember : Member
     {
-        public int membershipPrice()
+        public override int membershipPrice()
         {
             return 300;
         }
 
-        public int discount()
-        {
-            return 30;
-        }
     }
 
     #endregion
@@ -150,20 +136,21 @@ namespace CsharpBasics.DesignPatterns
     #region Creator Classes - Abstract and  Concrete
 
     public abstract class MemberShipManager{
-        public void JoinGym(string type)
-        {
-            Member m = CreateObject(type);
-            m.signup();
-            m.login();
 
+        public Member JoinGym(string type)
+        {
+            Member member = CreateObject(type);
+            member.signup();
+            member.login();
+            return member;
         }
 
-        public abstract Member CreateObject(string type);
+        protected abstract Member CreateObject(string type);
 
     }
 
-    public class SFOMemberShipManager : MemberShipManager{
-        public override Member CreateObject(string type)
+    public class SFMemberShipManager : MemberShipManager{
+        protected override Member CreateObject(string type)
         {
             if (type == "basic") return new SFOBasicMember();
             return new SFOClubMember();
@@ -172,7 +159,7 @@ namespace CsharpBasics.DesignPatterns
 
     public class ChicagoMemberShipManager : MemberShipManager
     {
-        public override Member CreateObject(string type)
+        protected override Member CreateObject(string type)
         {
             if (type == "basic") return new ChicagoBasicMember();
             return new ChicagoClubMember();
